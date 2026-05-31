@@ -195,7 +195,7 @@ def home():
         'index.html',
         show_table=False,
         districts=districts
-    )
+    )    
 
 
 if __name__ == '__main__':
