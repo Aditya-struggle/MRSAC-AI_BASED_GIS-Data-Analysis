@@ -91,7 +91,7 @@ body {
 }
 
 /* PNG Download button */
-.btn-download {
+.btn-download { 
     display: inline-block;
     padding: 12px 30px;
     background-color: #7a1f1f;
