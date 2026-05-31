@@ -1,0 +1,114 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-box {
+    background-color: #7a1f1f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row-box {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.left-box {
+    width: 40%;
+    background: #2d3ea8;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.right-box {
+    width: 60%;
+    background: #f2f2f2;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    height: 40px;
+    width: 120px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(88, 128, 88);
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(67, 102, 67);
+}
+
+.upper-dashboard {
+    display: flex;
+    border: 5px;
+}
+
+/* Map tools hint bar */
+.map-tools-info {
+    background-color: #f0f4ff;
+    border: 1px solid #c0ccee;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Satellite map container */
+#satellite-map {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid #7a1f1f;
+    margin-bottom: 10px;
+}
+
+/* PNG Download button */
+.btn-download {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #7a1f1f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn-download:hover {
+    background-color: #5e1717;
+}
+
+.btn-download:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

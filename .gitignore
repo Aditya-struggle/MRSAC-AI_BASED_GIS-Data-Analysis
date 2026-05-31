@@ -1,0 +1,25 @@
+# 1. Virtual Environment (Iske hazaron files ko ignore karna sabse zaroori hai)
+.venv/
+venv/
+env/
+
+# 2. GIS Project files (Jo .tif files dashboard se download hongi unhe roko)
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+
+# 3. Python Compiled files & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# 4. OS system files
+.DS_Store
+Thumbs.db
+
+# 5. Environment keys (Agar aage chal kar .env banaya toh)
+.env
